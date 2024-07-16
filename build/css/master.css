@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.bg {
+    background-image: url(../images/hero\ img.jpg);
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+
+}
+
+.bg-child {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    z-index: 2;
+
+
+
+}
+
+.bg span {
+    color: rgb(142, 16, 35);
+}
+
+.bg h1 {
+
+    font-family: "Prompt", sans-serif;
+    font-weight: 860;
+    font-style: normal;
+    font-size: 300%;
+
+}
+
+.bg h4 {
+
+    font-family: "Prompt", sans-serif;
+    font-weight: 160;
+    font-style: normal;
+
+}
+
+.bg h3 {
+    /* font-family: "Prompt", sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    height: 80px;
+    /* background-color: teal; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    color: rgb(142, 16, 35);
+    z-index: 3;
+
+}
+
+.navlist {
+    text-align: right;
+    margin-right: 15%;
+    padding: 5px 0;
+    list-style: none;
+    float: right;
+    color: white;
+    position: relative;
+    bottom: 78px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 160;
+    font-style: normal;
+
+}
+
+.navlist ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.fokir {
+
+    color: rgb(142, 16, 35);
+    margin-left: 15%;
+    font-size: larger;
+}
+
+.border {
+    /* background-color: aqua; */
+    width: 350px;
+    height: 450px;
+    border: solid 8px rgb(83, 83, 83);
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.border::after {
+    content: '';
+    position: absolute;
+    bottom: -5%;
+    left: 9%;
+    width: 70px;
+    height: 50px;
+    background-color: white;
+}
+
+.about {
+    vertical-align: top;
+    display: inline-block;
+    width: 48%;
+
+}
+
+.about img {
+    position: relative;
+    bottom: 440px;
+    left: 30px;
+}
+.abouttext{
+    color:rgb(113, 111, 111);
+    
+}
+.abouttext h1{
+    color: rgb(36, 36, 36);
+    position: relative;
+    left: 15px;
+}
+.abouttext h1::before{
+    content: '';
+        position: absolute;
+        /* bottom: -5%; */
+        right: 101.5%;
+        top: 20%;
+        width: 5px;
+        height: 23px;
+        background-color: rgb(222, 44, 74);
+}
+.abouttext p{
+    font-size: larger;
+    
+}
+.dashed{
+border-bottom: dashed 0.5px rgb(107, 107, 107);
+}
+.col{
+    display: inline-block;
+}
+.col2{
+    margin-left: 60px;
+}
+span{
+    color: rgb(63, 63, 63);
+    font-size: smaller;
+}
+.button1 button{
+    color: white;
+    background-color: rgb(205, 32, 61);
+    border: none;
+    width:150px ;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;   
+    transition: background-color 0.8s; 
+}
+
+.button1:hover button{
+    background-color: orangered;
+
+}
+.button2:hover button {
+    background-color: orangered;
+
+}
+.button2 button {
+    color: white;
+    background-color: rgb(205, 32, 61);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    transition: background-color 0.8s;
+}
+
+
+.b{
+    display: inline-block;
+}
+.service h1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+.item{
+    width: 22%;
+    height: 250px;
+    
+    text-align: center;
+    padding: 12px;
+   
+    float: left;
+    margin: 5px;  
+    transition: background-color 0.5s;
+
+}
+.item:hover {
+    background-color:white;
+   
+}
+.item:hover .icon{
+    transform: scale(1.1);
+}
+.item h2{
+    color:rgb(38, 38, 38);
+}
+.item p{
+    color: rgb(100, 99, 99);
+}
+.clr{
+    clear: left;
+}
+.service {
+    background-color: rgb(238, 236, 236);
+    height: 100hv;
+    
+    position: relative;
+    bottom: 300px;
+    padding: 20px;
+    height: 450px;
+    width: 100%;
+}
+.icon{
+    font-size: 30px;
+    color:rgb(246, 67, 97);
+    transition: transform 0.5s;
+   
+    
+}
+.portonavbar{
+    height: 80px;
+    /* width:30%; */
+        
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        color: rgb(142, 16, 35);
+        z-index: 3;
+        
+}
+.portonavlist{
+    text-align: center;
+        margin-right: 15%;
+        padding: 5px 0;
+        list-style: none;     
+        color:rgb(58, 58, 58);
+        position: absolute; 
+        left: 30%;
+    
+      
+        
+     
+}
+.portonavlist ul li{
+    
+            display: inline-block;
+            margin: 10px;
+        
+}
+.portofolio{
+    text-align: center;
+    position: relative;
+    bottom:200px ;
+}
+.porto{
+    float: left;
+    width: 31%;
+    background-color: white;
+    position: relative;
+    padding: 14px;  
+    /* box-sizing:border-box; */
+}
+.cover{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    top: 14px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.cover:hover
+{
+    opacity: 1;
+}
+.clr{
+    clear: left;
+}
+.porto img{
+    width: 100%;
+   display: block;
+   
+}
+.item2{
+    text-align: center;
+    width: 25%;
+    background-color: rgb(240, 236, 236);
+    height: 200px;
+    vertical-align: top;
+    float: left;
+    padding-top: 100px;
+}
+.item2 p{
+    color: rgb(81, 80, 80);
+}
+.item2 h2{
+    color: rgb(57, 56, 56);
+}
+.tt{
+    position: relative;
+    bottom: 80px;
+}
+.item3
+{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.clr{
+    clear: left;
+}
+.item3 img{
+    width: 100%;
+}
+.item3 .text4{
+    padding: 15px;
+}
+.item3 iframe{
+    width: 100%;
+}
+.contact h1{
+   text-align: center;
+}
+.blog h1{
+    text-align: center;
+}
+#name{
+    width: 30%;
+    height: 30px;
+    padding-left: 10px;
+    margin: 30px 15px 15px 200px;
+    
+    
+}
+#email{
+    width: 30%;
+    height: 30px;
+        padding-left: 10px;
+        
+}
+#subject{
+    margin-left: 200px;
+    height: 30px;
+    width:63.5% ;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+#msg{
+    margin-left: 200px;
+        height: 70px;
+        width: 63.5%;
+        margin-bottom: 15px;
+        padding-left: 10px;
+}
